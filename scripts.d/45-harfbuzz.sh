@@ -42,6 +42,5 @@ return 0
 }
 
 ffbuild_configure() {
-    #(( $(ffbuild_ffver) > 600 )) || return 0
-    #echo --enable-libharfbuzz
+    return 0
 }
